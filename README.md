@@ -1,4 +1,4 @@
-# vinext app
+# Personal Website
 
 This project was created with create-vinext-app.
 
