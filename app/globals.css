@@ -1,17 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-archivo: "Archivo", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  --color-canvas: #f7f6f2;
+  --color-ink: #261d11;
+  --color-ink-muted: #666159;
+  --color-ink-light: #828282;
+  --color-bauhaus-red: #a6290d;
+  --color-bauhaus-red-dark: #992e17;
+  --color-bauhaus-yellow: #f2b705;
+  --color-bauhaus-yellow-alt: #f2c94c;
+  --color-bauhaus-blue: #2f80ed;
+  --color-bauhaus-purple: #9b51e0;
+  --color-bauhaus-dark: #333333;
+  --color-rule: rgba(38, 29, 17, 0.55);
+  --color-rule-light: rgba(38, 29, 17, 0.2);
+}
 
 :root {
   color-scheme: light;
-  background: #f8fafc;
-  color: #111827;
-  font-family:
-    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #f7f6f2;
+  color: #261d11;
 }
 
 body {
   margin: 0;
+  background-color: #f7f6f2;
+  color: #261d11;
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
-a {
-  color: inherit;
+/* Hide default browser scrollbar so only the custom red roller is visible */
+html,
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge, Opera */
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+.architectural-rule {
+  height: 0.8px;
+  background-color: rgba(38, 29, 17, 0.55);
+  width: 100%;
 }
