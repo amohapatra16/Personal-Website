@@ -1,11 +1,20 @@
 # Personal Website
 
-This project was created with create-vinext-app.
+A personal website and portfolio built with Next.js App Router, TypeScript, and Tailwind CSS.
+
+## Getting Started
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Scripts
 
-- `pnpm run dev` starts the vinext dev server.
-- `pnpm run build` builds the Cloudflare Worker output.
-- `pnpm run start` previews the built Worker locally.
-- `pnpm run deploy` deploys the Cloudflare Worker.
-
+- `npm run dev` - Start local Next.js development server
+- `npm run build` - Build the application for production
+- `npm run start` - Start the production server
+- `npm run lint` - Run Next.js linter
