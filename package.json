@@ -1,38 +1,24 @@
 {
-	"name": "personal-website",
-	"version": "0.1.0",
-	"private": true,
-	"packageManager": "npm@11.19.1",
-	"dependencies": {
-		"@vinext/cloudflare": "latest",
-		"react": "latest",
-		"react-dom": "latest",
-		"react-server-dom-webpack": "latest",
-		"vinext": "latest"
-	},
-	"devDependencies": {
-		"@cloudflare/vite-plugin": "beta",
-		"@tailwindcss/postcss": "latest",
-		"@types/node": "latest",
-		"@types/react": "latest",
-		"@types/react-dom": "latest",
-		"@vitejs/plugin-react": "latest",
-		"@vitejs/plugin-rsc": "latest",
-		"cf": "1.0.0-beta.32",
-		"tailwindcss": "latest",
-		"typescript": "latest",
-		"vite": "8.3.0"
-	},
-	"type": "module",
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"start": "vite preview",
-		"deploy": "vinext-cloudflare deploy",
-		"preview": "npm run build && npm run start --",
-		"cf-typegen": "cf workers types"
-	},
-	"allowScripts": {
-		"workerd@1.20261113.1": true
-	}
+  "name": "personal-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^16.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
 }
