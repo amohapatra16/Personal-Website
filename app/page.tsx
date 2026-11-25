@@ -27,7 +27,7 @@ export default function HomePage() {
 
         <div className="absolute left-[69.96%] top-[-6.28%] z-20 h-[100.2%] w-[10.4%] border-[3px] border-black bg-[#f2b705]" />
 
-        <div className="absolute left-[82.05%] top-[16.3%] z-20 h-[56.1%] w-[9.75%] bg-[#333333]" />
+        <div className="absolute left-[82.05%] top-[16.3%] z-20 h-[56.1%] w-[9.75%] border-[3px] border-black bg-[#333333]" />
 
         <div className="absolute left-[93.5%] top-[38.9%] z-20 h-[10.46%] w-[6.5%] border-[3px] border-black bg-[#2f80ed]" />
       </div>
