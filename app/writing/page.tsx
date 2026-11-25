@@ -8,7 +8,7 @@ export default function WritingStubPage() {
         WRITING
       </h1>
       <p className="text-sm font-['Inter',sans-serif] text-[#666159] italic">
-        [Phase 2 Foundation Ready — Page layout will be built in Phase 3 upon approval]
+        In Progress.
       </p>
     </div>
   );
