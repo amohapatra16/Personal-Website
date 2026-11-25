@@ -31,11 +31,11 @@ export default function ContentsNavigation({
         </span>
       </div>
 
-      <ArchitecturalRule className="mx-6 w-auto" />
+      <ArchitecturalRule className="mx-6 w-auto" thickness="thick" />
 
       {/* Navigation List */}
       <ul className="flex flex-col m-0 p-0 list-none">
-        {NAV_ITEMS.map((item) => {
+        {NAV_ITEMS.map((item, index) => {
           // Check if active (matches path or starts with path for subroutes)
           const isActive =
             item.href === "/"
@@ -84,7 +84,10 @@ export default function ContentsNavigation({
                   ↗
                 </span>
               </Link>
-              <ArchitecturalRule className="mx-6 w-auto" />
+              <ArchitecturalRule
+                className="mx-6 w-auto"
+                thickness={index % 2 === 0 ? "thin" : "thick"}
+              />
             </li>
           );
         })}
