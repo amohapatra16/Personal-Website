@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import AmBauhausEmblem from "./AmBauhausEmblem";
 import ContentsNavigation from "./ContentsNavigation";
 import VerticalDivider from "./VerticalDivider";
@@ -22,9 +21,6 @@ export default function SiteLayout({ children }: SiteLayoutProps) {
         <header className="lg:hidden sticky top-0 z-40 bg-[#f7f6f2]/95 backdrop-blur-sm border-b border-black/80 px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <AmBauhausEmblem size={48} />
-            <Link href="/" className="font-['Archivo',sans-serif] font-black text-lg tracking-tight text-[#261d11]">
-              ANISHA MOHAPATRA
-            </Link>
           </div>
 
           <button
