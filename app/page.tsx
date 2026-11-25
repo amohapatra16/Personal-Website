@@ -8,7 +8,7 @@ export default function HomePage() {
       </h1>
 
       <p className="mt-[18px] font-['Archivo',sans-serif] font-bold text-[clamp(1.25rem,2vw,1.5rem)] leading-[30px] text-[#261d11]">
-        Interested in building beautiful & timeless products.
+        Interested in building beautiful and timeless products.
       </p>
 
       <div className="relative mt-[83px] aspect-[769/478] w-full lg:absolute lg:left-0 lg:top-[206px] lg:mt-0">
